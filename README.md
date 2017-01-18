@@ -15,7 +15,7 @@ and generate a new chat token.
 Use this token to send messages from the command line to a telegram chat.
 
     curl -d "{\"token\":\"012xyz\",\"msg\":\"hello from curl $(date)\"}" \
-    -H "Content-Type: application/json" https://fromcommandlinebot-lxlohcgvzq.now.sh
+    -H "Content-Type: application/json" https://fromcommandlinebot.now.sh
 
 Get the message in the telegram chat.
 
