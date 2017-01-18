@@ -1,10 +1,13 @@
 {
   "name": "fromcommandlinebot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Telegrom bot to send messages from command line",
   "main": "index.js",
   "scripts": {
     "start": "node index"
+  },
+  "engines": {
+    "node": "v6.9.3"
   },
   "author": "JuanPabloAJ",
   "license": "MIT",
