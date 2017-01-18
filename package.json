@@ -1,0 +1,19 @@
+{
+  "name": "fromcommandlinebot",
+  "version": "0.1.0",
+  "description": "Telegrom bot to send messages from command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "JuanPabloAJ",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21",
+    "multer": "^1.2.1",
+    "node-telegram-bot-api": "^0.25.0",
+    "winston": "^2.3.0"
+  }
+}
