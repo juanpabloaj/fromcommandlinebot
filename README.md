@@ -1,10 +1,10 @@
 # FromCommandLineBot
 
-A telegram bot to send messages to Telegram from command line.
+A telegram bot to send messages to Telegram from the command line.
 
 ## Usage
 
-Start a conversation with the fromcommandlinebot
+Start a conversation with fromcommandlinebot
 
 https://telegram.me/fromcommandlinebot
 
@@ -12,7 +12,7 @@ and generate a new chat token.
 
 ![Imgur](http://i.imgur.com/fRTDMRq.png)
 
-Use this token to send messages from the command line to the telegram chat.
+Use this token to send messages from the command line to a telegram chat.
 
     curl -d "{\"token\":\"012xyz\",\"msg\":\"hello from curl $(date)\"}" \
     -H "Content-Type: application/json" https://fromcommandlinebot-jyisywyext.now.sh
