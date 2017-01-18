@@ -21,11 +21,11 @@ Get the message in the telegram chat.
 
 ![Imgur](http://i.imgur.com/uUf2WHn.png)
 
-## Deploy
+## To Run and Deploy your own version of the bot
 
-### Requirements
+This information is for developers, if you only need use the bot, with read the previous section is sufficient.
 
-Environments variables
+If you need run a own instance of the bot you need a nodejs/expressjs server and a mongodb database, with some environment variables defined
 
     TELEGRAM_TOKEN
     MONGODB_DB_URL
