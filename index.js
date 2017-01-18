@@ -60,7 +60,7 @@ bot.onText(/\/help/, function(msg, match) {
   response += 'Get a token of this chat with the command \n/newtoken\n\n';
   response += 'With the token send a message from the command line, ';
   response += ' similar to this example:\n\n';
-  response += 'curl -d "{\\"token\\":\\"myChatToken\\",\\"msg\\":\\"hello from curl $(date)\\"}" -H "Content-Type: application/json" url:8080';
+  response += 'curl -d "{\\"token\\":\\"myChatToken\\",\\"msg\\":\\"hello from curl $(date)\\"}" -H "Content-Type: application/json" https://fromcommandlinebot-jyisywyext.now.sh';
   response += '\n\nCommands:\n';
   response += '/newtoken : generate a new token\n';
   response += '/showtoken : show the current token\n';
